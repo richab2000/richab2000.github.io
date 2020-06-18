@@ -15,7 +15,8 @@
    </head>
    <body>
       <!-- Navigation -->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <nav class="navbar navbar-expand-lg navbar-custom fixed-top" >
+      	<a class="navbar-brand" href="#"> </a>
          <div class="container">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -23,113 +24,137 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                <ul class="navbar-nav ml-auto">
                   <li class="nav-item active">
-                     <a class="nav-link" href="#">Home
+                     <a class="nav-link" href="#"
+                     style="font:'SF Pro Display';color:white">Home
                      <span class="sr-only">(current)</span>
                      </a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" target="blank" href="./dist/RichaBhattacharyaResume.pdf">Resume</a>
+                     <a class="nav-link" target="blank" href="./dist/RichaBhattacharyaResume.pdf"
+                     style="font:'SF Pro Display';color:white" >Resume</a>
 
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="#portfolio">Portfolio</a>
+                     <a class="nav-link" href="#portfolio"
+                     style="font:'SF Pro Display';color:white">Portfolio</a>
                   </li>
+                  
                </ul>
             </div>
          </div>
       </nav>
-      <div style="width: 100%; background-color: #f4f4f4; padding-top: 50px; padding-bottom: 20px; overflow: auto;">
-         <a title="" id = "home" style="display: block; position: absolute; top: -45px"></a>
-         <div>
-            <h1 style="color: #000000; text-align: center">Richa Bhattacharya</h1>
-            <p style="color: #000000; text-align: center; font-size: 20px">Researcher / Photographer / Student</p>
+       <!-- Cover Page -->
+     <div style="width: 100%;height:630px; background-color:black; padding-top: -10px; padding-bottom: 0px; overflow: auto; background-image: url(./dist/img/gradient.jpg);background-attachment:fixed;">
+     	         <a title="" id = "home" style="display: block; position: absolute; top: -45px"></a>
+         <div style="width: 100%;height:200px">
          </div>
-         <div>
-            <p style="color: #000000; text-align: center; font-size: 16px"> Email: <a href="mailto:richa.b@berkeley.edu">richa.b@berkeley.edu</a><br /></p>
+   
+         <div >
+            <h1 style="color:white; font-size:60px;text-align: center;font:'SF Pro Display',sans-serif;">
+            Richa Bhattacharya</h1>
+             <p style="color:white; text-align: center;font-size: 20px; font:'SF Pro Display',sans-serif;">
+              <a href="mailto:richa.b@berkeley.edu" style="color:white">Email</a>&ensp;|&ensp;<a href="https://github.com/richab2000" style="color:white">Github</a>&ensp;|&ensp; <a href="https://www.linkedin.com/in/richabhattacharya/" style="color:white">LinkedIn</a><br />
+            </p>
          </div>
         
       </div>
      
-      <div style="padding-top: 10px; padding-bottom: 20px; width: 100%; background-color: #292929; display: inline-block; max-height: 550px">
-         <br><br>
+      <!-- About Me -->
+      <div style="padding-top: 8px; padding-bottom: 10px; width: 100%; background-color:white; display: inline-block; max-height: 550px">
          <div id="leftDiv" style="width: 50%; float: left">
+         	<br><br><br>
             <img alt="" style="width: 50%; text-align: center; max-width: 300px; border:0; display: block; margin: 0 auto; " src="./dist/img/richa.JPG" />
-            <br>
          </div>
-         <div class="rightDiv" style="width: 50%; float: right">
-            <p style = "padding-right: 10%; padding-left: 10%; color: white; font-size: 20px; font-weight: 100;">Hi, I’m Richa! I’m currently majoring in Computer Science and Data Science at the University of California, Berkeley. I’m actively looking for research opportunities and internships in relevant fields. On top of serving as an advocate for women advancement in STEM, 
-            I am also passionate about photography, guitar, dancing, and tutoring.</p>
+         <div class="rightDiv" style="width:50%; float: right">
+            <p style = "padding-right: 20%; text-align: center; padding-left: 0%; color: #A3BDF1; font-size: 25px; font-weight: 100; font-family: Impact">
+            	<br>
+            	A Little Bit About Me
+           	</p>
+           	<p style = "padding-right: 15%; padding-left: 0%; color: #1A2869; font-size: 17px; font-weight: 100; font-family: Times New Roman">
+            	I am currently studying Computer Science and Data Science at UC Berkeley and am actively seeking internships and similar opportunities. On top of building meaningful projects, I am passionate about mentorship and advocating for women advancement in STEM on campus. As a consultant for the Data Science Department and an academic intern for the Computer Science Department, I strive to use my knowledge to support others in their endeavors. I actively work with my peers at the Association of Women in Electrical Engineering and Computer Science, Phi Sigma Rho, and other communities like NCWIT and RTC Fellows. Outside of academics, I am also interested in photography, guitar, painting, and dancing.
+           	</p>
          </div>
       </div>
-      <!-- Page Content -->
+      <!-- Portfolio -->
        <a title="" id="portfolio"></a>
       <div class="container">
          <!-- Page Heading -->
-         <h1 class="my-4">Portfolio</h1>
+         <h1 style="font-family:Impact; font-size:26px; color:#A3BDF1;" class="my-4">Portfolio</h1>
          <div class="row">
-            <div class="col-lg-4 col-sm-6 portfolio-item">
+            <div class="col-lg-3 col-sm-3 portfolio-item">
+               <div class="card h-100">
+                  <a href="#"><img class="card-img-top" src="./dist/img/data100.png" alt=""></a>
+                  <div class="card-body">
+                     <h4 class="card-title">
+                        <a style="font-size:16px;color:#66a3ff;" href="https://github.com/richab2000/Brain-Cancer-Data-Analysis"> Contraceptive Data Analysis</a>
+                     </h4>
+                     <p style="font-size:14px;color: #1A2869;" class="card-text">Using Pandas, Seaborne, SKlearn, and more, we aim to predict the number of children and kind of contraceptives used with several regressional and regularization models.
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-3 col-sm-3 portfolio-item">
                <div class="card h-100">
                   <a href="#"><img class="card-img-top" src="./dist/img/brainanalysis1.jpeg" alt=""></a>
                   <div class="card-body">
                      <h4 class="card-title">
-                        <a href="#">Brain Cancer Data Analysis</a>
+                        <a style="font-size:16px;color:#66a3ff;" href="https://github.com/richab2000/Brain-Cancer-Data-Analysis"> Brain Data Analysis</a>
                      </h4>
-                     <p class="card-text">This project in R analyzes real brain cancer patient data and runs a complex random forest statistic model on the data with randomly assigned features.</p>
+                     <p style="font-size:14px;color: #1A2869;" class="card-text">This project in R analyzes real brain cancer patient data and runs a complex random forest statistic model on the data with randomly assigned features.</p>
                   </div>
                </div>
             </div>
-            <div class="col-lg-4 col-sm-6 portfolio-item">
+            <div class="col-lg-3 col-sm-3 portfolio-item">
                <div class="card h-100">
                   <a href="#"><img class="card-img-top" src="./dist/img/brainimage.jpg" alt=""></a>
                   <div class="card-body">
                      <h4 class="card-title">
-                        <a href="#">Brain Cancer Survival Analysis</a>
+                        <a style="font-size:16px;color:#66a3ff;" href="https://github.com/richab2000/Brain-Cancer-Survival-Analysis">Brain Survival Analysis</a>
                      </h4>
-                     <p class="card-text">This project in R calculates fundamental statistics and runs several Kaplan Meier analyses sorted by prominent features such as Grade of Tumor, Age of Patient, and more.</p>
+                     <p style="font-size:14px;color: #1A2869;"class="card-text">This project in R runs fundamental statistics and Kaplan Meier analyses sorted by prominent features like Grade of Tumor, Age of Patient, and more.</p>
                   </div>
                </div>
             </div>
-            <div class="col-lg-4 col-sm-6 portfolio-item">
+            <div class="col-lg-3 col-sm-3 portfolio-item">
                <div class="card h-100">
                   <a href="#"><img class="card-img-top" src="./dist/img/Solitaire.png" alt=""></a>
                   <div class="card-body">
                      <h4 class="card-title">
-                        <a href="#">Solitaire</a>
+                        <a style="font-size:16px;color:#66a3ff;" href="https://github.com/richab2000/Solitaire">Solitaire</a>
                      </h4>
-                     <p class="card-text"> This project, written in Java with BlueJ, is the well-known card game Solitaire. The project displays several features of programming such as recursion, iterations, interfaces, user input, and more.</p>
+                     <p style="font-size:14px;color: #1A2869;"class="card-text"> This project in Java is the card game Solitaire. The project displays several features of programming such as recursion, iterations, interfaces, user input, and more.</p>
                   </div>
                </div>
             </div>
-            <div class="col-lg-4 col-sm-6 portfolio-item">
+            <div class="col-lg-3 col-sm-3 portfolio-item">
                <div class="card h-100">
                   <a href="#"><img class="card-img-top" src="./dist/img/tetris.png" alt=""></a>
                   <div class="card-body">
                      <h4 class="card-title">
-                        <a href="#">Tetris</a>
+                        <a style="font-size:16px;color:#66a3ff;" href="https://github.com/richab2000/Tetris">Tetris</a>
                      </h4>
-                     <p class="card-text"> This project is the well-known smart phone game known as Tetris. The project displays acute use of recursion, iterations, interfaces, user input, and more.</p>
+                     <p style="font-size:14px;color: #1A2869;"class="card-text"> This project in Java is the well-known game Tetris. The project displays acute use of recursion, iterations, interfaces, user input, and more.</p>
                   </div>
                </div>
             </div>
-            <div class="col-lg-4 col-sm-6 portfolio-item">
+            <div class="col-lg-3 col-sm-3 portfolio-item">
                <div class="card h-100">
                   <a href="#"><img class="card-img-top" src="./dist/img/mobydick.png" alt=""></a>
                   <div class="card-body">
                      <h4 class="card-title">
-                        <a href="#">Moby Dick Analysis</a>
+                        <a style="font-size:16px;color:#66a3ff;" href="https://github.com/richab2000/Moby-Dick-Analysis">Moby Dick Analysis</a>
                      </h4>
-                     <p class="card-text">This project in Java analyzses the words and letters in a book. It can display the number of times any word or letter appears, find the most or least common words, reports all the words that have a certain number of letters, and more.</p>
+                     <p style="font-size:14px;color: #1A2869;"class="card-text">This project in Java analyzses words in Moby Dick. It has menu features such as finding word counts, the most/least common words, all words with a certain number of letters, and more.</p>
                   </div>
                </div>
             </div>
-            <div class="col-lg-4 col-sm-6 portfolio-item">
+            <div class="col-lg-3 col-sm-3 portfolio-item">
                <div class="card h-100">
                   <a href="#"><img class="card-img-top" src="./dist/img/Hurricane.png" alt=""></a>
                   <div class="card-body">
                      <h4 class="card-title">
-                        <a href="#">Hurricane Data Analysis</a>
+                        <a style="font-size:16px;color:#66a3ff;" href="https://github.com/richab2000/Hurricane-Data-Analysis">Hurricane Data Analysis</a>
                      </h4>
-                     <p class="card-text">This project in Java provide several different menu options including features such as wind speed, year of occurence, pressure, and averages that present important information about Hurricane data in the world.</p>
+                     <p style="font-size:14px;color: #1A2869;"class="card-text">This project in Java provides hurricane information like ind speed, year of occurence, pressure, and other important data on global hurricanes.</p>
                   </div>
                </div>
             </div>
@@ -139,19 +164,15 @@
          <!-- /.row -->
          <!-- Pagination -->
          
+         
       </div>
       <!-- /.container -->
       <!-- Footer -->
-      <footer class="py-5 bg-dark"> 
-         <div style= "color: white; margin-left: 100px"> 
-            <span> Email: <a style=" color: white" href="mailto:richa.b@berkeley.edu"> <u>richa.b@berkeley.edu </u> </a> </span>
-            <br /> 
-            <span> LinkedIn: <a style=" color: white" href="https://www.linkedin.com/in/richa-bhattacharya-581050170/"> <u> Richa Bhattacharya </u> </a> </span>
-            <br />
-            <span> GitHub: <a style=" color: white" href="https://github.com/richab2000" target="blank"> <u> github.com/richab2000 </u>    </a> </span>
-         </div>
-         <div class="container">
-            <p style="float: right"class="m-0 text-center text-white">&copy; Richa Bhattacharya 2018</p>
+      <footer class="py-2 footer-custom"> 
+
+         <div style="margin-left: =20px" class="container">
+            <p style="float: right;font-size:16px;font-family:'SF Pro Display',sans-serif;"
+               class="m-0 text-center text-white">&copy; Richa Bhattacharya 2020</p>
          </div>
          <!-- /.container -->
       </footer>
