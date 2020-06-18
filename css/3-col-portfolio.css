@@ -4,13 +4,49 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-3-col-portfolio/blob/master/LICENSE)
  */
 
+ /* navbar */
+.navbar-custom {
+    background-color: black;
+    background-image: url("../dist/img/navgradient.png");
+    margin-right: -15px;
+    margin-left: -15px;
+
+}	
+
+.navbar-custom1 {
+    background-color: black;
+    background-image: url("../dist/img/hobbiesnavbar.png");
+    margin-right: -15px;
+    margin-left: -15px;
+
+} 
+
+.footer-custom {
+	background-color: #74b4fc;
+  background-image: url("../dist/img/navgradient.png");
+	height: 35px;
+}	
+
+.footer-custom1 {
+  background-color: #74b4fc;
+  background-image: url("../dist/img/hobbiesnavbar.png");
+  height: 35px;
+}
+
+.navbar{
+  margin-left: 0px;
+  margin-right: 0px;
+  min-height: 25px;
+  max-height: 40px;
+}
+
 body {
-  padding-top: 54px;
+  padding-top: 0px;
 }
 
 @media (min-width: 992px) {
   body {
-    padding-top: 56px;
+    padding-top: 0px;
   }
 }
 
