@@ -6,7 +6,7 @@
 
  /* navbar */
 .navbar-custom {
-    background-color: black;
+    background-color: #74b4fc;
     background-image: url("../dist/img/navgradient.png");
     margin-right: -15px;
     margin-left: -15px;
@@ -14,7 +14,7 @@
 }	
 
 .navbar-custom1 {
-    background-color: black;
+    background-color: #74b4fc;
     background-image: url("../dist/img/hobbiesnavbar.png");
     margin-right: -15px;
     margin-left: -15px;
